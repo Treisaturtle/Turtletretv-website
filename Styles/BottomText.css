@@ -1,0 +1,13 @@
+.BottomText{
+    display: flex;
+    width:  100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(2, 4, 44) ;
+}
+
+.BottomText p, .BottomText a {
+    color: aliceblue;
+    margin-bottom: 20px;
+}

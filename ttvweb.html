@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <script src = "VideoCaroulsel.js" defer></script>
+        <link rel="stylesheet" href="Styles/Banner.css">
+        <link rel="stylesheet" href="Styles/infodumpone.css">
+         <link rel="stylesheet" href="Styles/VideoCaroulsel.css">
+         <link rel="stylesheet" href="Styles/ProgramButtons.css">
+            <link rel="stylesheet" href="Styles/BottomText.css">
+
+    </head>
+
+    <Body>
+
+
+        <div WebCon>
+    <div class="BannerHolder">
+        <img id ="YouTubeLink" src="Banner vis/YouTube_2024_(White).svg"
+        onclick="window.open('https://www.youtube.com/@turtletretv', '_Blank')">
+
+
+       <img id="BannerVin" src="Banner vis/BannerVin.png">
+       <img id="spacetres2" src="">
+       <img id="SpaceTres" src="Banner vis/TresInSpace.png"> 
+     <img Id="Banner" src="Banner vis/BannerGalexyBackground.png">
+</div>
+         <div class="infodump" id="infodump1">
+            
+            <div class="infodumpwordholder1">
+                <h1 class="infodumpHeader">What Is This?</h1>
+                <p class="infowords1">Turtletretv is a mixed medium YouTube talkwhow like web series that
+                    covers and analyzes various genres and forms of media, ranging from the phycology of video game boss fights to niche
+                Christmas movie sequals everyone forgot about.  </p>
+    </div>
+
+        <img src="WebGraphics/HeaderImage-1.png" class="HeaderImage-1">
+</div>
+    <div class="infodump" id="infodump2">
+        <img src="WebGraphics/HeaderImage-2.png" class="Headerimage2">
+ <div class="infodumpwordholder2">
+          <h1 class="infodumpHeader">Who Is This?
+          </h1>
+                <p class="infowords1"> Turtletretv is at the momment a one man show. Tre 
+                    is responsible for the writting, animation, directing, editing, Narating / voice acting, compositing and thumnail design.
+                    Even resposible for the this very website your on right now.
+                </p>
+         </div>
+    </div>
+
+
+
+    <div class="VideoCarolsel">
+        <div class = "CHoldeerInteeractives">
+ <button id ="VideoCLeft" class = "VideoMove"><img src="Programs Logos/Direction Triangle Left.png">y</button>
+<iframe class = "Video" width="415" height="230" src="https://www.youtube-nocookie.com/embed/SbrluTtf5H0?si=xtm2Fd0S0UBXCkCR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<button id = "VideoCright" class = "VideoMove" ><img src="Programs Logos/dIRECTION tRIANGLE rIGHT.png" alt=""></button>
+    </div>  
+<img src="lOCATION/BossFightsLoc.png" class="CBKimeage">
+
+</div>
+    <div class="Production">
+        <h1>Production/Programs</h1>
+
+<div class="ProgramSideScrollHolder">
+
+
+  <div class="ProgramButtonHolder">
+    <button class="ProgramButton"><img src="Programs Logos/Creative cloud.svg"></button>
+        <p>Adobe Products</p>
+</div>
+
+<div class="ProgramButtonHolder">
+    <button class="ProgramButton"><img src="Programs Logos/Blender.png"></button>
+        <p style="padding-left:20px">Blender</p>
+
+</div>
+
+
+    
+    <div class="ProgramButtonHolder">
+    <button class="ProgramButton"><img src="Programs Logos/piskel.jpg"></button>
+        <p>Piskel</p>
+    </div>
+
+
+    </div>
+</div>
+    <div class="BottomText">
+        <p> © 2026 Turtletretv</p>
+        <a href = "mailto:turtletrebuisness@gmail.com">Contact Us</a>
+    </div>
+
+
+
+</div>
+</Body>
+
+<script>
+    const mam = document.querySelector(".Video")
+  let IntroGif = document.getElementById("SpaceTres")
+  let BannerTres = document.getElementById("spacetres2")
+    IntroGif.style.opacity = 0;
+  BannerTres.style.opacity = 1;
+ BannerTres.src = "Banner vis/BannerMotion.gif?t=" + new Date().getTime();
+
+ 
+
+setTimeout(function()
+{
+     IntroGif.style.opacity = 0;
+  BannerTres.style.opacity = 1;
+}, 400);
+
+</script>
+    
+</html>

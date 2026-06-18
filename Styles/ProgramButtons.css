@@ -1,0 +1,62 @@
+
+.Production {
+ background-color: rgb(6, 0, 53);
+ width: auto;
+ padding-left: 0px;
+
+}
+
+.Production h1 {
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.ProgramSideScrollHolder{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+
+}
+
+.ProgramButtonHolder  p {
+    text-align: center;
+    display:block;
+    color: rgb(255, 255, 255);
+}
+.ProgramButtonHolderP{
+display: flex;
+align-items: center;
+justify-content: center;
+
+flex-direction: column;
+}
+
+.ProgramButton{
+background:none;
+box-shadow: none;
+border: none;
+ transition: transform 0.3s ease;
+}
+
+.ProgramButton:hover{
+   
+   /* background-color: rgb(8, 1, 29); */
+   border-radius: 20px;
+       transform:  scale(1.2);
+}
+
+.ProgramButton img{
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+

@@ -1,0 +1,83 @@
+
+.VideoCarolsel{
+    place-items: center;
+    place-content: center;
+    display: grid;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  
+  
+}
+
+ .VideoCarolsel * {
+animation: parallax linear;
+animation-timeline: scroll(root);
+}
+
+
+.CHoldeerInteeractives{
+   
+
+display: flex;
+justify-self: center;
+justify-content: center;
+grid-area: 1/1;
+}
+
+
+
+.VideoMove{
+  box-shadow: none;
+    border: none;
+    background: none;
+}
+.VideoMove img {
+width: 50px;
+width: 50px;
+ transition: transform 0.3s ease;
+}
+
+
+#VideoCLeft{
+    margin-left: 20px;
+     margin-right:auto ;
+    
+}
+
+
+
+#VideoCLeft:hover img{
+    cursor: pointer;
+    transform:  scale(1.4);
+    }
+
+
+#VideoCright{
+    margin-right: 20px;
+    margin-left:auto;
+}
+
+#VideoCright:hover img{
+    cursor: pointer;
+    transform:  scale(1.4);
+    }
+
+.Video{
+    padding: 30px 30px 30px 30px
+   
+}
+
+.CBKimeage{
+    height: 600px;
+    width: 140%;
+z-index: -1;
+grid-area: 1/1;
+object-fit: cover;
+ --P-Speed: 0.7;
+}
+
+ @keyframes parallax {
+to{transform: translateY(calc(var(--P-Speed) * 100px));
+}
+ }
