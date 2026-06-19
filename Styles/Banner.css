@@ -12,7 +12,7 @@ body{
 #YouTubeLink{
 
     width: 10rem;
-    height: 5rem;
+    height: 2rem;
     position: absolute;
     grid-area: 1/1;
     top: 8px;
